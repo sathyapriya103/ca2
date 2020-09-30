@@ -1,0 +1,77 @@
+<html>
+<head>
+<link rel="stylesheet" href="ex.css">
+<title>hotel booking
+</title>
+</head>
+<body>
+<script src="java.js"></script>
+<header style="background-color:black;">
+<img src="logo3.jpg" height="100" width="300">
+</header>
+<div class="topnav">
+  <a class="active" href="home.html">Home</a>
+  <a href="travel.html">TRAVELS</a>
+  <a href="hotel.html">HOTEL BOOKING</a>
+  <a href="about.html">About</a>
+</div>
+<center>
+
+<h1 style="letter-spacing:20px"> TRAVEL PREFERENCES</h1>
+<a href="family.html" target="_self"><img src="family.png" width="300" height="120" title="family" alt="family"></a>
+<a href="friends.html" target="_self"><img src="fri.jpg" width="300" height="120" title="groups" alt="groups"></a>
+<a href="business.html" target="_self"><img src="bus.jpg" width="300" height="120" title="business" alt="business"></a>
+</section>
+<!---slide show-->
+<section>
+<aside>
+<h2 style="letter-spacing:20px">HOT DEALS</h2>
+
+<div style="max-width:500px">
+  <img class="mySlides" src="DIS1.jpg" style="width:100%">
+  <img class="mySlides" src="dis2.jpg" style="width:100%">
+  <img class="mySlides" src="dis3.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); 
+}
+</script>
+</aside>
+</section>
+<br><br>
+<article>
+<div class="container">
+<img src="11.jpg" height="80%" width="80%">
+<div class="centered">
+<h3 style="color:blue;">why to book hotel with fizzflyer?</h1><br>
+<P>fizzflyer is a leading online accommodation site .we're passionate about travel.
+everyday we inspire and reach millions of travellers across 90 local websites in 41 languages.
+so when it come to booking the perfect hotels with respect to 
+family friends buisness -we've got you covered.withhundreds of thousands of properties in 
+over 200 countries and territories, we provide incomparable choice with a price gaurantee.our site is fun
+ and simple to use and we offer innovative onlinetools and a top rated mobile app</p>
+ </div></div>
+</article>
+</center>
+<br>
+<footer align="right" style="background-color:black;color:white;"><br>
+PHONE:3243567798/977865434<br>
+<br><a href="mailto:fizzflyer@gmail.com"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgyWJeKE9vIglgzE-JQNsL-vmDHvzSLSjU7b-F7DW9d8I2wdHR&s" height="40" width="40"></a>
+        <a href="www.facebook.com"><img src="https://cdn0.iconfinder.com/data/icons/colorful-design-basic-icons-1/550/facebook_circle_darkblue-512.png" height="40" width="40"></a>
+         <a href="www.instagram .com"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIgatNzU-HrC5Pi8B-Z6i2uZPhMqa6f-wyfAlkK0-zzyYSERQW&s" height="40" width="40"></a>
+</footer>
+</body>
+</html>
